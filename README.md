@@ -1,5 +1,7 @@
 🏥 Smart Emergency Patient Queue System
+
 A professional, full-stack triage management application designed to automate patient prioritization in emergency departments.
+
 This system uses a custom algorithm to calculate a Priority Score (0-100) based on real-time vital signs, ensuring critical patients are seen first.
 
 🚀 OverviewThe Problem: 
