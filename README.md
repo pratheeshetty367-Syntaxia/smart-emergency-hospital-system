@@ -6,20 +6,24 @@ This system uses a custom algorithm to calculate a Priority Score (0-100) based 
 
 🚀 OverviewThe Problem: 
 Traditional ER queues are often "first-come, first-served," which can be dangerous for critical patients.
-The Solution: This app acts as a digital triage nurse, continuously monitoring vitals and dynamically re-ordering the queue based on medical urgency.
+\tThe Solution: This app acts as a digital triage nurse, continuously monitoring vitals and dynamically re-ordering the queue based on medical urgency.
+
 🛠️ Tech StackThis project uses the MDR Stack (MongoDB, Django, React):
 Frontend: React.js for a live-updating dashboard.
 Backend: Django REST Framework for robust API logic and the triage algorithm. 
 Database: MongoDB for flexible, document-based patient data storage. 
 API Client: Axios for seamless communication between frontend and backend
+
 📋 FeaturesAutomated Triage: 
 Priority scores and levels (Critical, High, Medium, Low) are calculated instantly upon admission . 
 Live Vital Monitoring: The dashboard simulates real-time vital sign fluctuations for all patients in the queue. 
 Statistical Dashboard: A StatsBar provides a quick overview of hospital load, categorized by urgency.  
 Dynamic Sorting: The queue automatically sorts itself so the highest priority patients are always at the top.  
+
 📂 Project StructureThe repository is organized into two main sections : 
 /backend: Django configuration, patient models, and the priority algorithm . 
 /frontend: React components, including the AdmitForm, PatientCard, and SuccessModal .  
+
 ⚙️ Installation & Setup
 To run this project locally, follow these steps:
 
