@@ -57,4 +57,4 @@
 * [cite_start]**frontend/**: Contains the React source code, API service, and UI components [cite: 1164-1172].
 
 ---
-Created by **Pratheek Shetty** (Syntaxia)
+Created by **Pratheeksha Shetty** (Syntaxia)
